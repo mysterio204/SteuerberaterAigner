@@ -1,12 +1,6 @@
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+ 
 
-  main {
-    flex: 1 0 auto;
-  }
+
 #adress{
 font-weight: 100;}
 
@@ -24,3 +18,9 @@ font-size: 20px;
 modal{
 color:black
 }
+
+.inner-3{
+    padding-right: 28%;
+}
+
+
