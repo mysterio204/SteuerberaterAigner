@@ -16,6 +16,13 @@
      font-weight: 100;
  }
  
+ .employees {
+     margin-top: 10%;
+     margin-bottom: 10%;
+     margin-left: 30%;
+     margin-right: 10%;
+ }
+ 
  modal {
      color: black
  }
@@ -48,4 +55,17 @@
  
  .top-margin {
      margin-top: 8%;
+ }
+ 
+ .team-header-top {
+     margin-left: 10%;
+ }
+ 
+ .team-header-bottom {
+     margin-top: 2%;
+     margin-left: 11%;
+ }
+ 
+ .team-header-bottom-2 {
+     color: cadetblue;
  }
