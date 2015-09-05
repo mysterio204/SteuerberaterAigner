@@ -62,18 +62,124 @@
     </header>
 
     <main>
+
+<!--
+ <form name="contactform" method="post" action="send_form_email.php">
+ 
+<table width="450px">
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="first_name">First Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="last_name">Last Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">Email Address *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="email" maxlength="80" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Telephone Number</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="comments">Comments *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td colspan="2" style="text-align:center">
+ 
+  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+ 
+ </td>
+ 
+</tr>
+ 
+</table>
+ 
+</form>       
+-->
        <div>
         
           <div class="row">
               <div class ="col s3"><p> </p></div>
-    <form class="col s6" action="mailto:thiemo-mysterio@msn.com" method="post" enctype="text/plain"
-      onsubmit="return sendFormular(this,'thiemo-mysterio@msn.com',700,300)">
+    <form class="col s6" action="send_form_email.php" method="post"
+      >
       <div class="row">
       
         <div class="input-field col s6">
         <i class="material-icons prefix">account_circle</i>
-          <input id="name" type="text" class="validate">
-          <label for="name">Name</label>
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Vorname</label>
+        </div>
+      </div>
+    <div class="input-field col s6">
+        <i class="material-icons prefix">account_circle</i>
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Nachname</label>
         </div>
       </div>
     
@@ -84,14 +190,13 @@
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
-        </div>
-           <div class="row">
-        <div class="input-field col s6">
-            <i class="material-icons prefix">label</i>
-          <input id="betr" type="email" class="validate">
-          <label for="betr">Betreff</label>
+<div class="input-field col s6">
+            <i class="material-icons prefix">mode_edit</i>
+          <input id="telephone" type="text" class="validate">
+          <label for="telephone">Betreff</label>
         </div>
         </div>
+        
     
     
         
@@ -99,14 +204,15 @@
       <div class="row">
         <div class="input-field col s12">
             <i class="material-icons prefix">chat bubble</i>
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Text</label>
+          <textarea id="comments" class="materialize-textarea"></textarea>
+          <label for="comments">Text</label>
         </div>
       </div>
-   
- 
-         <a class="btn-floating btn-large waves-effect waves-light red darken-4" type="submit" id="sundbutton"><i class="material-icons">send</i></a>
-      </div>
+            <button  type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4"><i class="material-icons">send</i></button>
+<!--              <input type="submit" value="Submit" class="btn-floating btn-large waves-effect waves-light red darken-4">-->
+
+<!--          <a class="btn-floating btn-large waves-effect waves-light red darken-4" type="submit" id="sundbutton"><i class="material-icons">send</i></a>-->
+    
     </form>
            <div class ="col s3"><p> </p></div>
   </div>
