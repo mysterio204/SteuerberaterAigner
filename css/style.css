@@ -1,4 +1,8 @@
+ #adress {
+     font-weight: 100;
+ }
  
+<<<<<<< HEAD
 
 
 #adress{
@@ -26,3 +30,26 @@ color:black
 float:right;
 }
 
+=======
+ #head_logo {
+     width: 50px;
+     height: 50px;
+ }
+ 
+ #title_text {
+     font-size: 20px;
+     font-weight: 100;
+ }
+ 
+ modal {
+     color: black
+ }
+ 
+ .inner-3 {
+     padding-right: 28%;
+ }
+ 
+ .top-margin {
+     margin-top: 8%;
+ }
+>>>>>>> Leistungen
