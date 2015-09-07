@@ -7523,7 +7523,7 @@ select {
       transition: background-color .3s;
       border-radius: 50%; }
       .slider .indicators .indicator-item.active {
-        background-color: #4CAF50; }
+        background-color: #b71c1c; }
 
 /* ==========================================================================
    $BASE-PICKER
