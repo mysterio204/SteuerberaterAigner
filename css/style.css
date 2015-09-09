@@ -1,15 +1,15 @@
- #adress {
+body{
+    margin-top: 220px;
+}
+
+#adress {
      font-weight: 100;
  }
  
  #adress {
      font-weight: 100;
  }
- 
- #head_logo {
-     width: 50px;
-     height: 50px;
- }
+
  
  #title_text {
      font-size: 20px;
@@ -36,8 +36,10 @@
  }
  
  #head_logo {
-     width: 50px;
-     height: 50px;
+     margin-top: 10px;
+     width: 180px;
+     height: 180px;
+     margin-left: 100px;
  }
  
  #title_text {
@@ -167,4 +169,51 @@ padding:20px;
 .titles{
 text-align: center;
     padding:20px;
+}
+
+nav{
+background-color: #FDEEF4;
+display: inline-block;
+height: 200px;
+color: #555;
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    overflow: auto;
+    z-index: 999;
+}
+
+.nav-wrapper{
+    vertical-align: middle;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+ 
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+    line-height: 200px;
+}
+
+nav ul a{
+    color: firebrick;
+    font-size: 18px;
+}
+
+nav ul li:hover, nav ul li.active{
+    background-color: transparent;
+    color: white;
 }
