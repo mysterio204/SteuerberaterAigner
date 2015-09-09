@@ -56,7 +56,6 @@
  .top-margin {
      margin-top: 8%;
  }
-
  
  .team-header-top {
      margin-left: 10%;
@@ -70,4 +69,94 @@
  .team-header-bottom-2 {
      color: cadetblue;
  }
-
+ 
+ .background-1 {
+     background-color: aqua;
+ }
+ 
+ .h-arvo {
+     font-family: 'Arvo', sans-serif;
+     font-size: 35px;
+     line-height: 35px;
+     margin-bottom: 25px;
+     letter-spacing: 0px;
+     color: #555;
+     font-weight: 300;
+     display: block;
+ }
+ 
+ .h1-arvo {
+     font-size: 24px;
+     line-height: 35px;
+     font-family: 'Open Sans', sans-serif;
+     color: #555;
+     font-weight: 300;
+     letter-spacing: 0.01em;
+     display: block;
+ }
+ 
+ .h2-arvo {
+     font-size: 15px;
+     font-family: 'Open Sans', sans-serif;
+     color: #555;
+     font-weight: 300;
+     letter-spacing: 0.01em;
+     display: block;
+ }
+ 
+ .h3-arvo {
+     font-size: 16px;
+     line-height: 35px;
+     font-family: 'Open Sans', sans-serif;
+     color: #555;
+     font-weight: 300;
+     letter-spacing: 0.01em;
+     display: block;
+ }
+ 
+ .p-arvo {
+     letter-spacing: 0.2em;
+     font-size: 11px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: normal;
+     font-stretch: normal;
+     font-size: 13px;
+     line-height: 22px;
+     font-family: 'Open Sans', sans-serif;
+     color: #999999;
+ }
+ 
+ .p-arvo-1 {
+     letter-spacing: 0.1em;
+     font-size: 11px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: normal;
+     font-stretch: normal;
+     font-size: 13px;
+     line-height: 22px;
+     font-family: 'Open Sans', sans-serif;
+     color: #999999;
+ }
+ 
+ .p-arvo-1-bold {
+     font-family: 'Open Sans', sans-serif;
+     color: #555;
+     font-weight: 300;
+     letter-spacing: 0.01em;
+     text-rendering: optimizelegibility;
+ }
+ 
+ .p-arvo-bold {
+     font-family: 'Open Sans', sans-serif;
+     color: #555;
+     font-weight: 300;
+     letter-spacing: 0.01em;
+     text-rendering: optimizelegibility;
+ }
+ 
+ .a-arvo {
+     font-family: sans-serif;
+     color: #989811;
+ }
