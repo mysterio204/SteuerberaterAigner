@@ -62,62 +62,69 @@
     </header>
 
     <main>
+        <div class="titles">
+        
+        <p class="h-arvo">Kontaktieren Sie uns!</p>
+            <p class="h3-arvo">Schreiben Sie uns eine E-Mail. Wir freuen uns auf ihre Kontaktaufnahme</p>
+        
+        </div>
 
-
-        <div>
+         <div id="contactform"  >
 
             <div class="row">
-                <div class="col s3">
+                <div class="col s0 m3">
                     <p> </p>
                 </div>
-                <form class="col s6" action="send_form_email.php" method="post">
-                    <div class="row">
+               
+                    <form class="col m6 card-panel" id="con"action="send_form_email.php" method="post">
+                        <div class="row">
 
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">Vorname</label>
+                            <div class="input-field col s6 m6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">Vorname</label>
+                            </div>
+
+                            <div class="input-field col s6 m6">
+                                <!--                            <i class="material-icons prefix">account_circle</i>-->
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Nachname</label>
+                            </div>
                         </div>
 
-                        <div class="input-field col s6">
-                            <!--                            <i class="material-icons prefix">account_circle</i>-->
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Nachname</label>
+
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <input id="telephone" type="text" class="validate">
+                                <label for="telephone">Betreff</label>
+                            </div>
                         </div>
-                    </div>
 
 
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">email</i>
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
+
+
+
+                        <div class="row">
+                            <div class="input-field col s12 m12">
+                                <i class="material-icons prefix">chat bubble</i>
+                                <textarea id="comments" class="materialize-textarea"></textarea>
+                                <label for="comments">Text</label>
+                            </div>
                         </div>
-                        <div class="input-field col s6">
-                            <i class="material-icons prefix">mode_edit</i>
-                            <input id="telephone" type="text" class="validate">
-                            <label for="telephone">Betreff</label>
-                        </div>
-                    </div>
+                        <button type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4" id="submitbutton"><i class="material-icons">send</i></button>
+                        <!--              <input type="submit" value="Submit" class="btn-floating btn-large waves-effect waves-light red darken-4">-->
 
+                        <!--          <a class="btn-floating btn-large waves-effect waves-light red darken-4" type="submit" id="sundbutton"><i class="material-icons">send</i></a>-->
 
-
-
-
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">chat bubble</i>
-                            <textarea id="comments" class="materialize-textarea"></textarea>
-                            <label for="comments">Text</label>
-                        </div>
-                    </div>
-                    <button type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4" id="submitbutton"><i class="material-icons">send</i></button>
-                    <!--              <input type="submit" value="Submit" class="btn-floating btn-large waves-effect waves-light red darken-4">-->
-
-                    <!--          <a class="btn-floating btn-large waves-effect waves-light red darken-4" type="submit" id="sundbutton"><i class="material-icons">send</i></a>-->
-
-                </form>
-                <div class="col s3">
+                    </form>
+                
+                <div class="col s0 m3">
                     <p> </p>
                 </div>
             </div>
