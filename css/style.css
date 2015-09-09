@@ -213,7 +213,21 @@ nav ul a{
     font-size: 18px;
 }
 
+#a:hover + #b {
+    background: #ccc
+}
+
 nav ul li:hover, nav ul li.active{
     background-color: transparent;
     color: white;
+}
+
+.navitems{
+    transition: .3s;
+}
+
+.navitems:hover{
+    transition: .3s;
+    font-size: 22px;
+    color: black;
 }
