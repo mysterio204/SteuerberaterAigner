@@ -3,12 +3,12 @@
 
 <head>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
-    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8">
 
 
@@ -34,198 +34,203 @@
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
-            <nav>
+<header>
+    <div class="navbar">
+        <nav>
 
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo" id="title_text"><img src="assets/img/img_logo.png" id="head_logo"></a>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo" id="title_text"><img src="assets/img/img_logo.png" id="head_logo"></a>
 
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li class="active navitems"><a href="index.html">Home</a></li>
-                        <li class="navitems"><a href="Leistungen.html">Leistungen</a></li>
-                        <li class="navitems"><a href="Team.html">Team</a></li>
-                        <li class="navitems"><a href="kontakt.html">Kontakt</a></li>
-                        <li class="navitems"><a href="news.html">News</a></li>
-
-
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="Leistungen.html">Leistungen</a></li>
-                        <li><a href="Team.html">Team</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
-                        <li><a href="news.html">News</a></li>
-
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <div class="titles">
-
-            <p class="h-arvo">Kontaktieren Sie uns!</p>
-            <p class="h3-arvo">Schreiben Sie uns eine E-Mail. Wir freuen uns auf Ihre Kontaktaufnahme</p>
-            <p class="h3-arvo">Oder rufen Sie uns an: <a href="tel:+49855391115" class="h3-arvo telnumber" >(08553) 91115</a></p>
-
-        </div>
-
-        <div id="contactform">
-
-            <div class="row">
-                <div class="col s0 m3">
-                    <p> </p>
-                </div>
-
-                <form class="col m6 card-panel" id="con" action="send_form_email.php" method="post">
-                    <div class="row">
-
-                        <div class="input-field col s6 m6">
-                            <!--                                <i class="material-icons prefix">account_circle</i>-->
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">Vorname</label>
-                        </div>
-
-                        <div class="input-field col s6 m6">
-                            <!--                            <i class="material-icons prefix">account_circle</i>-->
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Nachname</label>
-                        </div>
-                    </div>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active navitems"><a href="index.html">Home</a></li>
+                    <li class="navitems"><a href="Leistungen.html">Leistungen</a></li>
+                    <li class="navitems"><a href="Team.html">Team</a></li>
+                    <li class="navitems"><a href="kontakt.html">Kontakt</a></li>
+                    <li class="navitems"><a href="news.html">News</a></li>
 
 
-                    <div class="row">
-                        <div class="input-field col s12 m6">
-                            <!--                                <i class="material-icons prefix">email</i>-->
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="input-field col s12 m6">
-                            <!--                                <i class="material-icons prefix">mode_edit</i>-->
-                            <input id="telephone" type="text" class="validate">
-                            <label for="telephone">Betreff</label>
-                        </div>
-                    </div>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Leistungen.html">Leistungen</a></li>
+                    <li><a href="Team.html">Team</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="news.html">News</a></li>
 
-
-
-
-
-                    <div class="row">
-                        <div class="input-field col s12 m12">
-                            <!--                                <i class="material-icons prefix">chat bubble</i>-->
-                            <textarea id="comments" class="materialize-textarea"></textarea>
-                            <label for="comments">Text</label>
-                        </div>
-                    </div>
-<!--                    <button type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4" id="submitbutton"><i class="material-icons">send</i></button>-->
-                    <button type="submit" class="  btn-large waves-effect waves-light red darken-4" id="submitbutton">Senden</button>
-
-
-                </form>
-
-                <div class="col s0 m3">
-                    <p> </p>
-                </div>
+                </ul>
             </div>
+        </nav>
+    </div>
+</header>
 
-        </div>
-    </main>
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <h4>Impressum</h4>
-            <b>Zuständige Aufsichtsbehörde: </b>
-            <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München
-            <br>
-            <br>
-            <b>Zuständige Kammer:</b>
-            <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München Berufsbezeichnung: Steuerberater (bestellt am
-            27.12.1995 durch Bayer. Staatsministerium der Finanzen)
-            <br>
-            <br>
-            <b>Berufsrechtliche Regelungen:</b>
-            <br>Steuerberatungsgesetz (StBerG) Durchführungsverordnung zum Steuerberatungsgesetz (DVStB) Berufsordnung für
-            Steuerberater (BOStB) Steuerberatergebührenverordnung (StBGebV).
-            <br>Hinweis: Die Regelungen können bei der Bundessteuerberaterkammer www.bstbk.de eingesehen werden. Angaben zur
-            Berufshaftpflichtversicherung. Zürich Insurance pic – Niederlassung Deutschland, 53287 Bonn – Vertrags-Nr.
-            802.120.432.027 Umsatzsteuer-Identifikationsnummer (§27a UStG): DE175885136
-            <br>
-            <br> <b>Inhaltlich Verantwortlicher:</b>
-            <br> Heinz Aigner
-            <br> Dorfstraße 18
-            <br>94536 Eppenschlag
-            <br><b>Haftungsausschluss:</b>
-            <br> Für die Inhalte externer Links übernehmen wir trotz sorgfältiger inhaltlicher Prüfung keine Haftung. Den
-            Inhalt verlinkter Seiten verantworten deren Betreiber.</p>
-            <br>
-            <br>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
-        </div>
+<main>
+    <div class="titles">
+
+        <p class="h-arvo">Kontaktieren Sie uns!</p>
+
+        <p class="h3-arvo">Schreiben Sie uns eine E-Mail. Wir freuen uns auf Ihre Kontaktaufnahme</p>
+
+        <p class="h3-arvo">Oder rufen Sie uns an: <a href="tel:+49855391115" class="h3-arvo telnumber">(08553) 91115</a>
+        </p>
+
     </div>
 
-    <div id="modal2" class="modal">
-        <div class="modal-content">
-            <h4>Geben Sie Ihre Email-Adresse ein</h4>
-            <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email" data-error="wrong" data-success="right">max-mustermann@beispiel.de</label>
-                            <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2"type="submit " name="action ">Absenden
-                            </button>
-                        </div>
+    <div id="contactform">
+
+        <div class="row">
+            <div class="col s0 m3">
+                <p></p>
+            </div>
+
+            <form class="col m6 card-panel" id="con" action="send_form_email.php" method="post">
+                <div class="row">
+
+                    <div class="input-field col s6 m6">
+                        <!--                                <i class="material-icons prefix">account_circle</i>-->
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Vorname</label>
                     </div>
-                </form>
-            </div>
 
+                    <div class="input-field col s6 m6">
+                        <!--                            <i class="material-icons prefix">account_circle</i>-->
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Nachname</label>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <!--                                <i class="material-icons prefix">email</i>-->
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <!--                                <i class="material-icons prefix">mode_edit</i>-->
+                        <input id="telephone" type="text" class="validate">
+                        <label for="telephone">Betreff</label>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col s12 m12">
+                        <!--                                <i class="material-icons prefix">chat bubble</i>-->
+                        <textarea id="comments" class="materialize-textarea"></textarea>
+                        <label for="comments">Text</label>
+                    </div>
+                </div>
+                <!--                    <button type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4" id="submitbutton"><i class="material-icons">send</i></button>-->
+                <button type="submit" class="  btn-large waves-effect waves-light red darken-4" id="submitbutton">
+                    Senden
+                </button>
+
+
+            </form>
+
+            <div class="col s0 m3">
+                <p></p>
+            </div>
         </div>
-        <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
-        </div>
+
     </div>
+</main>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Impressum</h4>
+        <b>Zuständige Aufsichtsbehörde: </b>
+        <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München
+        <br>
+        <br>
+        <b>Zuständige Kammer:</b>
+        <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München Berufsbezeichnung: Steuerberater (bestellt am
+        27.12.1995 durch Bayer. Staatsministerium der Finanzen)
+        <br>
+        <br>
+        <b>Berufsrechtliche Regelungen:</b>
+        <br>Steuerberatungsgesetz (StBerG) Durchführungsverordnung zum Steuerberatungsgesetz (DVStB) Berufsordnung für
+        Steuerberater (BOStB) Steuerberatergebührenverordnung (StBGebV).
+        <br>Hinweis: Die Regelungen können bei der Bundessteuerberaterkammer www.bstbk.de eingesehen werden. Angaben zur
+        Berufshaftpflichtversicherung. Zürich Insurance pic – Niederlassung Deutschland, 53287 Bonn – Vertrags-Nr.
+        802.120.432.027 Umsatzsteuer-Identifikationsnummer (§27a UStG): DE175885136
+        <br>
+        <br> <b>Inhaltlich Verantwortlicher:</b>
+        <br> Heinz Aigner
+        <br> Dorfstraße 18
+        <br>94536 Eppenschlag
+        <br><b>Haftungsausschluss:</b>
+        <br> Für die Inhalte externer Links übernehmen wir trotz sorgfältiger inhaltlicher Prüfung keine Haftung. Den
+        Inhalt verlinkter Seiten verantworten deren Betreiber.</p>
+        <br>
+        <br>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
+    </div>
+</div>
 
-    <footer class="page-footer  grey darken-2">
-        <div class="container">
-            <div class="row">
-                <div class="col s6">
-                    <h5 class="white-text">Steuerberater Aigner</h5>
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <h4>Geben Sie Ihre Email-Adresse ein</h4>
 
-                    <p class="grey-text text-lighten-4" id="adress">Hauptstraße 2-4
-                        <br>94518 Spiegelau
-                        <br>Tel. (08553) 91115
-                        <br>Fax (08553) 91116</p>
-
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">max-mustermann@beispiel.de</label>
+                        <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2" type="submit "
+                                name="action ">Absenden
+                        </button>
+                    </div>
                 </div>
-                <div class="col s6">
-                    <h5 class="white-text">Newsletter</h5>
+            </form>
+        </div>
 
-                    <p class="grey-text text-lighten-4" id="newsletter">Wollen Sie immer auf dem Laufenden bleiben?
-                        <br>Abonnieren Sie einfach den Newsletter und Sie erhalten monatlich aktuelle Informationen aus dem
-                        Steuerrecht.</p>
-                    <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2"type="submit " name="action ">Abonnieren
-                    </button>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
+    </div>
+</div>
 
+<footer class="page-footer  grey darken-2">
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+                <h5 class="white-text">Steuerberater Aigner</h5>
 
-                </div>
+                <p class="grey-text text-lighten-4" id="adress">Hauptstraße 2-4
+                    <br>94518 Spiegelau
+                    <br>Tel. (08553) 91115
+                    <br>Fax (08553) 91116</p>
 
             </div>
-            <div class="footer-copyright ">
-                <div class="container ">© 2015 Steuerberater Aigner
-                    <a class="grey-text text-lighten-4 right modal-trigger " href="#modal1 ">Impressum</a>
-                </div>
+            <div class="col s6">
+                <h5 class="white-text">Newsletter</h5>
+
+                <p class="grey-text text-lighten-4" id="newsletter">Wollen Sie immer auf dem Laufenden bleiben?
+                    <br>Abonnieren Sie einfach den Newsletter und Sie erhalten monatlich aktuelle Informationen aus dem
+                    Steuerrecht.</p>
+                <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2" type="submit "
+                        name="action ">Abonnieren
+                </button>
+
 
             </div>
-    </footer>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-    <script type="text/javascript " src="js/materialize.min.js "></script>
-    <script type="text/javascript " src="js/app.js "></script>
+
+        </div>
+        <div class="footer-copyright ">
+            <div class="container ">© 2015 Steuerberater Aigner
+                <a class="grey-text text-lighten-4 right modal-trigger " href="#modal1 ">Impressum</a>
+            </div>
+
+        </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+<script type="text/javascript " src="js/materialize.min.js "></script>
+<script type="text/javascript " src="js/app.js "></script>
 </body>
 
 </html>
