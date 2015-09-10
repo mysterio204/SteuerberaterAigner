@@ -1,5 +1,6 @@
 body{
     margin-top: 220px;
+    background-color: whitesmoke;
 }
 
 #adress {
@@ -172,7 +173,8 @@ text-align: center;
 }
 
 nav{
-background-color: #FDEEF4;
+/*background-color: #FDEEF4;*/
+    background-color: white;
 display: inline-block;
 height: 200px;
 color: #555;
