@@ -19,7 +19,6 @@ window.addEventListener('scroll', function(e){
         } else {
             if (classie.has(header,"smaller")) {
                 classie.remove(header,"smaller");
-                
                classie.remove(logo, "small");
                
 
