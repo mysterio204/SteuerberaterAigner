@@ -3,7 +3,7 @@
 
 <head>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -34,99 +34,99 @@
 </head>
 
 <body>
-   <header>
+    <header>
         <div class="navbar">
-        <nav>
+            <nav>
 
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo" id="title_text"><img src="assets/img/img_logo.png" id="head_logo"></a>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo" id="title_text"><img src="assets/img/img_logo.png" id="head_logo"></a>
 
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li class="active navitems"><a href="index.html">Home</a></li>
-                    <li class="navitems"><a href="Leistungen.html">Leistungen</a></li>
-                    <li class="navitems"><a href="Team.html">Team</a></li>
-                    <li class="navitems"><a href="kontakt.html">Kontakt</a></li>
-                    <li class="navitems"><a href="news.html">News</a></li>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="active navitems"><a href="index.html">Home</a></li>
+                        <li class="navitems"><a href="Leistungen.html">Leistungen</a></li>
+                        <li class="navitems"><a href="Team.html">Team</a></li>
+                        <li class="navitems"><a href="kontakt.html">Kontakt</a></li>
+                        <li class="navitems"><a href="news.html">News</a></li>
 
 
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Leistungen.html">Leistungen</a></li>
-                    <li><a href="Team.html">Team</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="news.html">News</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Leistungen.html">Leistungen</a></li>
+                        <li><a href="Team.html">Team</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="news.html">News</a></li>
 
-                </ul>
-            </div>
-        </nav>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
     <main>
         <div class="titles">
-        
-        <p class="h-arvo">Kontaktieren Sie uns!</p>
-            <p class="h3-arvo">Schreiben Sie uns eine E-Mail. Wir freuen uns auf ihre Kontaktaufnahme</p>
-        
+
+            <p class="h-arvo">Kontaktieren Sie uns!</p>
+            <p class="h3-arvo">Schreiben Sie uns eine E-Mail. Wir freuen uns auf Ihre Kontaktaufnahme</p>
+            <p class="h3-arvo">Oder rufen Sie uns an: <a href="tel:+49855391115" class="h3-arvo telnumber" >(08553) 91115</a></p>
+
         </div>
 
-         <div id="contactform"  >
+        <div id="contactform">
 
             <div class="row">
                 <div class="col s0 m3">
                     <p> </p>
                 </div>
-               
-                    <form class="col m6 card-panel" id="con"action="send_form_email.php" method="post">
-                        <div class="row">
 
-                            <div class="input-field col s6 m6">
-                                <i class="material-icons prefix">account_circle</i>
-                                <input id="first_name" type="text" class="validate">
-                                <label for="first_name">Vorname</label>
-                            </div>
+                <form class="col m6 card-panel" id="con" action="send_form_email.php" method="post">
+                    <div class="row">
 
-                            <div class="input-field col s6 m6">
-                                <!--                            <i class="material-icons prefix">account_circle</i>-->
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Nachname</label>
-                            </div>
+                        <div class="input-field col s6 m6">
+                            <!--                                <i class="material-icons prefix">account_circle</i>-->
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Vorname</label>
                         </div>
 
-
-                        <div class="row">
-                            <div class="input-field col s12 m6">
-                                <i class="material-icons prefix">email</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-field col s12 m6">
-                                <i class="material-icons prefix">mode_edit</i>
-                                <input id="telephone" type="text" class="validate">
-                                <label for="telephone">Betreff</label>
-                            </div>
+                        <div class="input-field col s6 m6">
+                            <!--                            <i class="material-icons prefix">account_circle</i>-->
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nachname</label>
                         </div>
+                    </div>
 
 
-
-
-
-                        <div class="row">
-                            <div class="input-field col s12 m12">
-                                <i class="material-icons prefix">chat bubble</i>
-                                <textarea id="comments" class="materialize-textarea"></textarea>
-                                <label for="comments">Text</label>
-                            </div>
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <!--                                <i class="material-icons prefix">email</i>-->
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
                         </div>
-                        <button type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4" id="submitbutton"><i class="material-icons">send</i></button>
-                        <!--              <input type="submit" value="Submit" class="btn-floating btn-large waves-effect waves-light red darken-4">-->
+                        <div class="input-field col s12 m6">
+                            <!--                                <i class="material-icons prefix">mode_edit</i>-->
+                            <input id="telephone" type="text" class="validate">
+                            <label for="telephone">Betreff</label>
+                        </div>
+                    </div>
 
-                        <!--          <a class="btn-floating btn-large waves-effect waves-light red darken-4" type="submit" id="sundbutton"><i class="material-icons">send</i></a>-->
 
-                    </form>
-                
+
+
+
+                    <div class="row">
+                        <div class="input-field col s12 m12">
+                            <!--                                <i class="material-icons prefix">chat bubble</i>-->
+                            <textarea id="comments" class="materialize-textarea"></textarea>
+                            <label for="comments">Text</label>
+                        </div>
+                    </div>
+<!--                    <button type="submit" class=" btn-floating btn-large waves-effect waves-light red darken-4" id="submitbutton"><i class="material-icons">send</i></button>-->
+                    <button type="submit" class="  btn-large waves-effect waves-light red darken-4" id="submitbutton">Senden</button>
+
+
+                </form>
+
                 <div class="col s0 m3">
                     <p> </p>
                 </div>
