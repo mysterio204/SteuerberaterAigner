@@ -49,6 +49,7 @@ body{
      float: right;
  }
  
+<<<<<<< Updated upstream
  .head_logo {
      position: absolute;
      top: 0px;
@@ -59,6 +60,9 @@ body{
      height: 200px;
      margin-left: 100px;
  }
+=======
+
+>>>>>>> Stashed changes
  
  #title_text {
      font-size: 20px;
@@ -195,9 +199,11 @@ nav{
 display: inline-block;
 height: 200px;
 color: #555;
+
 box-shadow: 0 0 0 0;
         padding: 0 0 0 0;
 margin: 0;
+
 }
 
 header{
@@ -253,8 +259,19 @@ nav ul li:hover, nav ul li.active{
     background-color: transparent;
     color: white;
 }
+ .head_logo {
+     transition: all .0s ease;
+    -webkit-transition: all .0s ease;
+
+     margin-top: 10px;
+     width: 180px;
+     height: 180px;
+     margin-left: 100px;
+    
+ }
 
 .head_logo.small{
+
     transition: .3s;
     position: absolute;
     top: -117px;
@@ -263,6 +280,7 @@ nav ul li:hover, nav ul li.active{
 nav.smaller{
     height: 80px;
     line-height: 80px;
+
 }
 
 .navitems{
