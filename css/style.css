@@ -49,7 +49,7 @@ body{
      float: right;
  }
  
-
+<<<<<<< Updated upstream
  .head_logo {
      position: absolute;
      top: 0px;
@@ -60,7 +60,9 @@ body{
      height: 200px;
      margin-left: 100px;
  }
+=======
 
+>>>>>>> Stashed changes
  
  #title_text {
      font-size: 20px;
