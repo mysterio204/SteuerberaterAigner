@@ -2344,10 +2344,16 @@ $(document).ready(function(){
 		  $('a[href=#' + $(element).attr('id') + ']').click(function(e) {
 		    e.preventDefault();
 		    var offset = $(this.hash).offset().top + 1;
+             
+             if($(element).attr('id')=="finanz"){
+                
+              offset = 1;
+                
+              }
 
 //          offset - 200 allows elements near bottom of page to scroll
 			
-	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
+	    	$('html, body').animate({ scrollTop: offset - 150 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
 			
 		  });
 		});

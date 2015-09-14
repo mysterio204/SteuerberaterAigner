@@ -4,8 +4,7 @@
 <head>
     <!--Import materialize.css-->
 
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+
 
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
@@ -14,58 +13,79 @@
 
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
 </head>
 
-<body class="leist">
-<header class="z-depth-1">
-    <div class="navbar">
-        <nav>
+<body class="leist" id="topelement">
+    <header class="z-depth-1">
+        <div class="navbar">
+            <nav>
 
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo "><img src="assets/img/logo_svg.svg" class="head_logo"></a>
+                    <a href="#!"><img src="assets/img/title_logo.png" class="title_text"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="navitems" href="index.html">Home</a></li>
+                        <li><a class="navitems active" href="Leistungen.html">Leistungen</a></li>
+                        <li><a class="navitems" href="Team.html">Team</a></li>
+                        <li><a class="navitems" href="kontakt.html">Kontakt</a></li>
+                        <li><a class="navitems" href="downloads.html">Downloads</a></li>
+
+
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Leistungen.html">Leistungen</a></li>
+                        <li><a href="Team.html">Team</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--
+        <div class="col hide-on-small-only m3 l2 " id="scrollnav">
+      <ul class="section table-of-contents center">
+        <li class="navitems"><a href="#introduction">Introduction</a></li>
+        <li class="navitems"><a href="#structure">Structure</a></li>
+        <li class="navitems"><a href="#initialization">Intialization</a></li>
+      </ul>
+    </div>
+
+-->
+        <nav id="scrollnav" class="hide-on-med-and-down">
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo "><img src="assets/img/logo_svg.svg" class="head_logo"></a>
-                <a href="#!" ><img src="assets/img/title_logo.png" class="title_text"></a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a class="navitems" href="index.html">Home</a></li>
-                    <li><a class="navitems active" href="Leistungen.html">Leistungen</a></li>
-                    <li><a class="navitems" href="Team.html">Team</a></li>
-                    <li><a class="navitems" href="kontakt.html">Kontakt</a></li>
-                    <li><a class="navitems" href="downloads.html">Downloads</a></li>
 
-
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Leistungen.html">Leistungen</a></li>
-                    <li><a href="Team.html">Team</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-
+                <ul id="nav-mobile" class=" section table-of-contents center-align">
+                    <li><a href="#finanz">Finanzbuchhaltung</a></li>
+                    <li><a href="#lohn">Lohnbuchhaltung</a></li>
+                    <li><a href="#allgemein">Allgemeine Leistungen</a></li>
+                    <li><a href="#beratung">Beratung und Betreuung</a></li>
+                    <li><a href="#kanzlei">Kanzleiservice</a></li>
                 </ul>
             </div>
         </nav>
-    </div>
-</header>
-<main class="leistungen-bottom">
+    </header>
+    <main class="leistungen-bottom">
 
 
-    <!-- Finanzbuchhaltung -->
+        <!-- Finanzbuchhaltung -->
 
-    <div class="section leistungen-section">
-        <h4 class="center-align h-arvo leistungen"> Finanzbuchhaltung</h4>
+        <div class="section  scrollspy" id="finanz">
+            <h4 class="center-align h-arvo leistungen"> Finanzbuchhaltung</h4>
 
 
             <div class="col s12 m8 offset-m2 l6 offset-l3">
                 <div class="card-panel white  z-depth-1">
                     <div class="row valign-wrapper">
                         <div class="col s2 ">
-                            <img src="assets/img/leistungen/img_finanzbuchhaltung2.jpg" width="200%" alt=""
-                                 class="hide-on-small-only circle z-depth-2">
+                            <img src="assets/img/leistungen/img_finanzbuchhaltung2.jpg" width="200%" alt="" class="hide-on-small-only circle z-depth-2">
                         </div>
                         <div class="col s10 offset-l2">
-              <span class="right-alligned">
+                            <span class="right-alligned">
                   <p class="h1-arvo"><b> Unsere Dienstleistungen umfassen je nach Wunsch:</b></p>
                   
                    <div class="div-container-leistungen">
@@ -139,11 +159,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Lohnbuchhaltung -->
 
-            <!-- Lohnbuchhaltung -->
-
-            <div class="section">
-                <h4 class="center-align h-arvo leistungen"> Lohnbuchhaltung</h5>
+        <div class="section scrollspy" id="lohn">
+            <h4 class="center-align h-arvo leistungen"> Lohnbuchhaltung</h5>
 
 
                     <div class="col s12 m8 offset-m2 l6 offset-l3">
@@ -223,10 +243,10 @@
                         </div>
                     </div>
 
-
+    </div>
                     <!-- Allgemeine Leistungen -->
 
-                    <div class="section">
+                    <div class="section scrollspy" id="allgemein">
                         <h4 class="center-align h-arvo leistungen"> Allgemeine Leistungen</h5>
 
 
@@ -296,10 +316,10 @@
                                 </div>
                             </div>
 
-
+    </div>
                             <!-- Beratung & Betreuung -->
 
-                            <div class="section">
+                            <div class="section scrollspy" id="beratung">
                                 <h4 class="center-align h-arvo leistungen"> Beratung & Betreuung</h5>
 
 
@@ -367,11 +387,11 @@
                                             </div>
                                         </div>
                                     </div>
-
+    </div>
 
                                     <!-- Kanzleiservice -->
 
-                                    <div class="section leistungen-bottom">
+                                    <div class="section leistungen-bottom scrollspy" id="kanzlei">
                                         <h4 class="center-align h-arvo leistungen "> Kanzleiservice</h5>
 
 
@@ -436,107 +456,100 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                        </div>                         </div>
 
 
 </main>
 <div id="modal1" class="modal">
     <div class="modal-content">
         <h4>Impressum</h4>
-        <b>Zuständige Aufsichtsbehörde: </b>
-        <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München
-        <br>
-        <br>
-        <b>Zuständige Kammer:</b>
-        <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München Berufsbezeichnung: Steuerberater (bestellt am
-        27.12.1995 durch Bayer. Staatsministerium der Finanzen)
-        <br>
-        <br>
-        <b>Berufsrechtliche Regelungen:</b>
-        <br>Steuerberatungsgesetz (StBerG) Durchführungsverordnung zum Steuerberatungsgesetz (DVStB) Berufsordnung für
-        Steuerberater (BOStB) Steuerberatergebührenverordnung (StBGebV).
-        <br>Hinweis: Die Regelungen können bei der Bundessteuerberaterkammer www.bstbk.de eingesehen werden. Angaben zur
-        Berufshaftpflichtversicherung. Zürich Insurance pic – Niederlassung Deutschland, 53287 Bonn – Vertrags-Nr.
-        802.120.432.027 Umsatzsteuer-Identifikationsnummer (§27a UStG): DE175885136
-        <br>
-        <br> <b>Inhaltlich Verantwortlicher:</b>
-        <br> Heinz Aigner
-        <br> Dorfstraße 18
-        <br>94536 Eppenschlag
-        <br><b>Haftungsausschluss:</b>
-        <br> Für die Inhalte externer Links übernehmen wir trotz sorgfältiger inhaltlicher Prüfung keine Haftung. Den
-        Inhalt verlinkter Seiten verantworten deren Betreiber.</p>
-        <br>
-        <br>
-    </div>
-    <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
-    </div>
-</div>
+            <b>Zuständige Aufsichtsbehörde: </b>
+            <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München
+            <br>
+            <br>
+            <b>Zuständige Kammer:</b>
+            <br>Steuerberaterkammer München. Nederlingerstr.9, 80638 München Berufsbezeichnung: Steuerberater (bestellt am 27.12.1995 durch Bayer. Staatsministerium der Finanzen)
+            <br>
+            <br>
+            <b>Berufsrechtliche Regelungen:</b>
+            <br>Steuerberatungsgesetz (StBerG) Durchführungsverordnung zum Steuerberatungsgesetz (DVStB) Berufsordnung für Steuerberater (BOStB) Steuerberatergebührenverordnung (StBGebV).
+            <br>Hinweis: Die Regelungen können bei der Bundessteuerberaterkammer www.bstbk.de eingesehen werden. Angaben zur Berufshaftpflichtversicherung. Zürich Insurance pic – Niederlassung Deutschland, 53287 Bonn – Vertrags-Nr. 802.120.432.027 Umsatzsteuer-Identifikationsnummer (§27a UStG): DE175885136
+            <br>
+            <br> <b>Inhaltlich Verantwortlicher:</b>
+            <br> Heinz Aigner
+            <br> Dorfstraße 18
+            <br>94536 Eppenschlag
+            <br><b>Haftungsausschluss:</b>
+            <br> Für die Inhalte externer Links übernehmen wir trotz sorgfältiger inhaltlicher Prüfung keine Haftung. Den Inhalt verlinkter Seiten verantworten deren Betreiber.</p>
+            <br>
+            <br>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
+        </div>
+        </div>
 
-<div id="modal2" class="modal">
-    <div class="modal-content">
-        <h4>Geben Sie Ihre Email-Adresse ein</h4>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <h4>Geben Sie Ihre Email-Adresse ein</h4>
 
-        <div class="row">
-            <form class="col s12">
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
-                        <label for="email" data-error="wrong" data-success="right">max-mustermann@beispiel.de</label>
-                        <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2" type="submit "
-                                name="action ">Absenden
-                        </button>
-                    </div>
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email" data-error="wrong" data-success="right">max-mustermann@beispiel.de</label>
+                                <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2" type="submit " name="action ">Absenden
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>
-        </div>
-
-    </div>
-    <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
-    </div>
-</div>
-
-<footer class="page-footer  grey darken-2 leistungen-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col s6">
-                <h5 class="white-text">Steuerberater Aigner</h5>
-
-                <p class="grey-text text-lighten-4" id="adress">Hauptstraße 2-4
-                    <br>94518 Spiegelau
-                    <br>Tel. (08553) 91115
-                    <br>Fax (08553) 91116</p>
 
             </div>
-            <div class="col s6">
-                <h5 class="white-text">Newsletter</h5>
-
-                <p class="grey-text text-lighten-4" id="newsletter">Wollen Sie immer auf dem Laufenden bleiben?
-                    <br>Abonnieren Sie einfach den Newsletter und Sie erhalten monatlich aktuelle Informationen aus dem
-                    Steuerrecht.</p>
-                <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2" type="submit "
-                        name="action ">Abonnieren
-                </button>
-
-
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Schliessen</a>
             </div>
-
         </div>
-        <div class="footer-copyright ">
-            <div class="container ">© 2015 Steuerberater Aigner
-                <a class="grey-text text-lighten-4 right modal-trigger " href="#modal1 ">Impressum</a>
-            </div>
 
-        </div>
-</footer>
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-<script type="text/javascript " src="js/materialize.min.js "></script>
-    <script type="text/javascript" src="js/classie.js"></script>
+        <footer class="page-footer  grey darken-2 leistungen-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                        <h5 class="white-text">Steuerberater Aigner</h5>
 
-<script type="text/javascript " src="js/app.js "></script>
+                        <p class="grey-text text-lighten-4" id="adress">Hauptstraße 2-4
+                            <br>94518 Spiegelau
+                            <br>Tel. (08553) 91115
+                            <br>Fax (08553) 91116</p>
+
+                    </div>
+                    <div class="col s6">
+                        <h5 class="white-text">Newsletter</h5>
+
+                        <p class="grey-text text-lighten-4" id="newsletter">Wollen Sie immer auf dem Laufenden bleiben?
+                            <br>Abonnieren Sie einfach den Newsletter und Sie erhalten monatlich aktuelle Informationen aus dem Steuerrecht.
+                        </p>
+                        <button class=" btn waves-effect waves-light grey modal-trigger " href="#modal2" type="submit " name="action ">Abonnieren
+                        </button>
+
+
+                    </div>
+
+                </div>
+                <div class="footer-copyright ">
+                    <div class="container ">© 2015 Steuerberater Aigner
+                        <a class="grey-text text-lighten-4 right modal-trigger " href="#modal1 ">Impressum</a>
+                    </div>
+
+                </div>
+        </footer>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+        <script type="text/javascript " src="js/materialize.js "></script>
+        <script type="text/javascript" src="js/classie.js"></script>
+
+        <script type="text/javascript " src="js/app.js "></script>
 </body>
 
 </html>
